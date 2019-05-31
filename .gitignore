@@ -1,12 +1,12 @@
 # C sharp
 
-**/[Bb]in
-**/[Oo]bj
+**/[Bb]in/
+**/[Oo]bj/
 packages/
 
 # VS Code
 
-.vscode
+.vscode/*
 !.vscode/launch.json
 !.vscode/tasks.json
 
