@@ -13,3 +13,7 @@ packages/
 # Project
 
 TestResult.xml
+
+# NuGet
+
+*.nupkg
