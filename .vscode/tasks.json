@@ -29,6 +29,21 @@
                 "${workspaceFolder}"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "dependsOn": [ "build (release)" ],
+            "label": "pack",
+            "group": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "pack",
+                "${workspaceFolder}/src/IO.Directus",
+                "--no-build",
+                "-o",
+                "../../"
+            ],
+            "problemMatcher": "$msCompile"
         }
     ]
 }
