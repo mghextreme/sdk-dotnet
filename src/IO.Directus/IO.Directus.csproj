@@ -10,11 +10,13 @@ OpenAPI spec version: 1.1
     <TargetFramework>netstandard2.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <DocumentationFile>$(OutputPath)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+    <NuspecFile>IO.Directus.nuspec</NuspecFile>
   </PropertyGroup>
   
   <ItemGroup>
-    <PackageReference Include="RestSharp" Version="105.1.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+    <PackageReference Include="RestSharp" Version="106.6.9" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
   </ItemGroup>
 
